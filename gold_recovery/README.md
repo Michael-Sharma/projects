@@ -69,6 +69,7 @@ $$Recovery=\frac{C*(F-T)}{F*(C-T)}$$
 -  эффективность обогащения финального концентрата rougher.output.recovery
 
 Формулы для метрики sMAPE и итоговой метрики:
+
 <img width="499" alt="image" src="https://user-images.githubusercontent.com/100087606/155808434-37719934-36cb-4102-8c66-292e310219b5.png">
 
 
