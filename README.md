@@ -7,7 +7,8 @@
 | [Рекомендация тарифов](https://github.com/Michael-Sharma/projects/tree/main/telecom_tariff_recommendation) | Построение системы, способной проанализировать поведение клиентов и предложить пользователям новый тариф. | *pandas, sklearn* |
 | [Отток клиентов «Бета-Банка»](https://github.com/Michael-Sharma/projects/tree/main/churn_clients) | Построение модели оттока клиентов банка. | *pandas, numpy, sklearn* |
 | [Выбор локации для скважины](https://github.com/Michael-Sharma/projects/tree/main/location_for_drilling) | Построение модели машинного обучения, которая поможет определить регион, в котором добыча принесёт наибольшую прибыль с наименьшими рисками. | *pandas, numpy, seaborn, sklearn* |
-| [Восстановление золота из руды](https://github.com/Michael-Sharma/projects/tree/main/gold_recovery) | Построение модели, предсказывающей коэффициент восстановления золота из золотосодержащей руды. | *pandas, numpy, seaborn, matplotlib, sklearn* |
+| [Восстановление золота из руды](https://github.com/Michael-Sharma/projects/tree/main/gold_recovery) | Построение модели машинного обучения, предсказывающей коэффициент восстановления золота из золотосодержащей руды. | *pandas, numpy, seaborn, matplotlib, sklearn* |
+| [Определение стоимости автомобилей](https://github.com/Michael-Sharma/projects/tree/main/car_price) | Построение модели машинного обучения, определяющей  рыночную стоимость автомобилей с пробегом. | *pandas, numpy, matplotlib, seaborn, sklearn, LightGBM, CatBoost* |
 
 
 
