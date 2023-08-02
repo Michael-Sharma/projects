@@ -1,0 +1,37 @@
+preprocessing:
+    change_type_columns:
+        region_name: category
+        city_name: category
+        cpe_manufacturer_name: category
+        cpe_model_name: category
+        url_host: category
+        cpe_model_os_type: category 
+        part_of_day: category
+    drop_columns: ['user_id', 'date']
+    drop_for_unique: ['user_id', 'date', 'url_host', 'price', 'request_cnt']
+    random_state: 42
+    target_column: is_male
+    test_size: 0.25
+    val_size: 0.16
+    data_path: ../data/raw/df.csv
+    unique_values_path: ../data/processed/unique_values.json
+    train_path_proc: ../data/processed/train.csv
+    test_path_proc: ../data/processed/test.csv
+
+train:
+    n_trials: 7
+    n_folds: 3
+    random_state: 42
+    target_column: is_male
+    early_stopping_rounds: 100
+    eval_metric: auc
+    model_path: ../models/model_lgb.joblib
+    study_path: ../models/study.joblib
+    metrics_path: ../report/metrics.json
+    params_path: ../report/best_params.json
+
+endpoints:
+#  train: 'http://fastapi:8001/train'
+#  prediction_input: 'http://fastapi:8001/predict_input'
+  train: 'http://localhost:8000/train'
+  prediction_input: 'http://localhost:8000/predict_input'
